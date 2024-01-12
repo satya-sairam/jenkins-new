@@ -10,14 +10,14 @@ pipeline{
         }
     
 
-       stages{
+
         stage("two"){
             steps{
                 sh '''
                    echo "Hello world -2"
                 '''
             }
+
         }
-    }
-}
+   }
 }
