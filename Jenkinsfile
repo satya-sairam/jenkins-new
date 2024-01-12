@@ -8,7 +8,7 @@ pipeline{
                 '''
             }
         }
-    }
+    
 
        stages{
         stage("two"){
@@ -19,4 +19,5 @@ pipeline{
             }
         }
     }
+}
 }
